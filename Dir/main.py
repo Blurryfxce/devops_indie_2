@@ -21,7 +21,7 @@ data = StudentData(student, real_perf, desired_perf).to_dict()
 # Ім'я файлу
 base_filename = f"{student.get_pib().replace(' ', '_')}_{student.get_group()}_SR2"
 
-# Збереження
+# Збереження файлу
 SaveJSON().save(data, f"{base_filename}.json")
 
 print("Файли збережено успішно!")
