@@ -1,4 +1,4 @@
-import Performance
+from Performance import Performance
 
 
 class RealPerformance(Performance):
