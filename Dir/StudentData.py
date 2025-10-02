@@ -1,4 +1,6 @@
-import Student, RealPerformance, DesiredPerformance
+from DesiredPerformance import DesiredPerformance
+from RealPerformance import RealPerformance
+from Student import Student
 
 
 class StudentData:

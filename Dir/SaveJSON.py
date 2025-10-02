@@ -1,5 +1,5 @@
 import json
-import DataSaver
+from DataSaver import DataSaver
 
 
 class SaveJSON(DataSaver):
